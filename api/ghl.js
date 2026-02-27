@@ -53,7 +53,7 @@ module.exports = async (req, res) => {
   if (req.method !== "POST") return res.status(405).send("Method Not Allowed");
 
   const FORM_URL =
-    "https://docs.google.com/forms/d/e/1FAIpQLSdAQvry3-pKeDZMg6h54TpVQ6IK373NAuBOcJACt5W4jY2XSg/formResponse";
+    "https://docs.google.com/forms/d/e/1FAIpQLSfbK2vf8c4Tl6xSarvwW87wJveReZv1FtrqW9a_8_DPFGIV9g/formResponse";
 
   const data = req.body || {};
   const parsed =
